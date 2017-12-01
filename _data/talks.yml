@@ -1,0 +1,6 @@
+#-
+#  speaker_id:
+#    - christopher-pecoraro
+#  title: "RESTful API: la novità in Laravel 5.5"
+#  extract: >
+#    Laravel 5.5 ha aggiunto alcune cose per aiutarci a creare più velocemente la basi di un API restful. Per esempio, adesso i transformer sono stati integrati, quindi non c'è più bisogno di includere Fractal. Questa talk parlerà degli step necessari per creare un'API RESTful semplice partendo da zero, usando la varie novità.

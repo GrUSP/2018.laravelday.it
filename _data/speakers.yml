@@ -1,0 +1,10 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+list:
+#  -
+#    id: christopher-pecoraro
+#    description:
+#    image: christopher-pecoraro.jpg
+#    first_name: Christopher
+#    last_name: Pecoraro
+#    twitter: chris__pecoraro
