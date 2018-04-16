@@ -25,7 +25,7 @@ css:
       autoprefixer: true
       compile: _frontend/frontsize/laravelday-2017/import.scss
       csslint: false
-      file: symfonyday.css
+      file: laravelday.css
       images: _frontend/frontsize/laravelday-2017/img/**/*.*
       merge: true
       name: laravelday
