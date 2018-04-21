@@ -10,3 +10,14 @@ call_for_paper: true
 talks_available: false
 schedule_available: false
 has_workshop: false
+
+iubenda:
+  cookiePolicyId: 23260449
+  siteId: 1092309
+  lang: it
+  enableRemoteConsent: true
+  localConsentDomain: laravelday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-KJHB748
