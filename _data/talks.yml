@@ -1,6 +1,65 @@
-#-
-#  speaker_id:
-#    - christopher-pecoraro
-#  title: "RESTful API: la novità in Laravel 5.5"
-#  extract: >
-#    Laravel 5.5 ha aggiunto alcune cose per aiutarci a creare più velocemente la basi di un API restful. Per esempio, adesso i transformer sono stati integrati, quindi non c'è più bisogno di includere Fractal. Questa talk parlerà degli step necessari per creare un'API RESTful semplice partendo da zero, usando la varie novità.
+-
+  speaker_id:
+    - christian-nastasi
+  title: Modern PHP development with Laravel 5.6
+  extract: >
+    In soli 5 anni il mondo PHP si è rivoluzionato completamente. Prima di allora veniva considerato un semplice
+    linguaggio di scripting per siti web di piccole dimensioni. Ora ha guadagnato a tutti gli effetti lo status di
+    linguaggio di programmazione per professionisti da utilizzare all’interno di contesti Enterprise.
+    Tutto nacque grazie a Composer ed il suo gestore delle dipendenze. Da quel momento in poi la community ha potuto
+    condividere librerie open source con una facilità mai vista prima, creando un campo fertile e dando spazio
+    all’innovazione. Tra i principali utilizzatori delle novità introdotte vi è sicuramente Laravel, il framework
+    backend con piu star su GitHub e tutt’ora in fortissima crescita. In questo talk faremo un overview sulle principali
+    metodologie di sviluppo moderne. Si passerà dal TDD al Continuous Integration, continuando per Clean Code, Object
+    Calisthenics, principi di Domain Driven Design ed Architettura Esagonale.
+
+-
+  speaker_id:
+    - damiano-petrungaro
+  title: Modern PHP development with Laravel 5.6
+  extract: >
+    In soli 5 anni il mondo PHP si è rivoluzionato completamente. Prima di allora veniva considerato un semplice
+    linguaggio di scripting per siti web di piccole dimensioni. Ora ha guadagnato a tutti gli effetti lo status di
+    linguaggio di programmazione per professionisti da utilizzare all’interno di contesti Enterprise.
+    Tutto nacque grazie a Composer ed il suo gestore delle dipendenze. Da quel momento in poi la community ha potuto
+    condividere librerie open source con una facilità mai vista prima, creando un campo fertile e dando spazio
+    all’innovazione. Tra i principali utilizzatori delle novità introdotte vi è sicuramente Laravel, il framework
+    backend con piu star su GitHub e tutt’ora in fortissima crescita. In questo talk faremo un overview sulle principali
+    metodologie di sviluppo moderne. Si passerà dal TDD al Continuous Integration, continuando per Clean Code, Object
+    Calisthenics, principi di Domain Driven Design ed Architettura Esagonale.
+
+-
+  speaker_id:
+    - gianfranco-castro
+  title: Sviluppare API con Laravel e Serverless su AWS
+  extract: >
+    Una della più grandi innovazioni legate al cloud computing è sicuramente rappresentato dall'ecosistema Serverless
+    cui negli ultimi anni abbiamo assistito a una grande diffusione di questo paradigma di sviluppo.
+    Il serverless è un ecosistema di servizi e metodi di progettazione dai confini molto ampi e che necessita di un
+    certo spirito critico per essere inquadrato nel modo giusto e impiegato nei propri progetti.
+    Nel caso di un'applicazione Laravel su Serverless in ambiente AWS occorre adottare qualche accorgimento e
+    configurazione per utilizzarne a pieno i vantaggi.
+    In questo talk vedremo come sviluppare un API REST completa di feature come autenticazione JWT, rate-limit, cache
+    e best practice e vederla girare su un'ambiente AWS Serveless; si affronterà anche come monitorarne il
+    funzionamento, progeettare ed effettuare i test, per avere API sempre "up & running"
+
+-
+  speaker_id:
+    - riccardo-scasseddu
+  title: Deploying Laravel from dev to production
+  extract: >
+    Writing good software is only half the effort that is needed to make it available to the public. In this session
+    we are going to look at what are the most common strategies to deploy a laravel application in a local,
+    self-hosted, paas and iaas envrioments comparing all the points to allow better understanding of why some solutions
+    are better than others in specific situation. Particolar attention will be made to the dev environment and how we
+    can ensure that it's the closest as production to avoid all the common pitfalls that we should have know of.
+
+-
+  speaker_id:
+    - santo-caruso
+  title: Docker for PHP Developers
+  extract: >
+    Parleremo di come configurare e utilizzare Docker in un progetto Laravel per uno sviluppatore che si inserisce in
+    un nuovo Team per la prima volta. Prendedermo come esempio alcuni progetti già pre-costituiti come Laravel Homestead
+    e Laradock fino ad arrivare ad a costruire un ambiente docker più strutturato con Laravel, Redis, Memcached, Laravel
+    Echo Server per avere un ambiente facilmente deployable sul cloud.
