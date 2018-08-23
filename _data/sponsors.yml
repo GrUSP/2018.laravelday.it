@@ -47,6 +47,9 @@ gold:
     - 3 biglietti gratuiti
   max: 8
   list:
+    -
+      url: https://www.workwave.com/?utm_source=laravelday
+      image: workwave.svg
 
 silver:
   price: € 500
