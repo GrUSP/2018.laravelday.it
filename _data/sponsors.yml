@@ -70,3 +70,6 @@ bronze:
     - 1 biglietto gratuito
   max: 32
   list:
+    -
+      url: http://dbs.agency/?utm_source=laravelday
+      image: designbrothers.svg
