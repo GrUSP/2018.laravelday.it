@@ -73,3 +73,6 @@ bronze:
     -
       url: http://dbs.agency/?utm_source=laravelday
       image: designbrothers.svg
+    -
+      url: http://www.seneca.it/?utm_source=laravelday
+      image: seneca.svg
