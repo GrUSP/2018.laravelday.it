@@ -4,115 +4,111 @@ title: Schedule
 
 <div class="limit limit--top-margin">
 
-  {% include schedule/intro.html date='December 1st' %}
+  {% include schedule/intro.html date='30 Novembre' %}
 
-  <div class="schedule" data-dates="12-1">
+  <div class="schedule" data-dates="11-30">
     <table class="schedule__table">
       <thead>
         {% include schedule/header.html tracks='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='9.00-9.45' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
         {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
         {% include schedule/event.html time='9.55-10.05' title='Presentazione Laravel Italia' fill='true' %}
         <tr>
-          {% include schedule/talk.html time='10.10-10.40' title='RESTful API: la novità in Laravel 5.5'  fill='true' %}
+          {% include schedule/talk.html time='10.05-10.30' title='Modern PHP development with Laravel 5.6'  fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='10.45-11.15' title='Deploy di applicazioni Laravel con le pipeline di Bitbucket'  fill='true' %}
+          {% include schedule/talk.html time='10.35-11.00' title="Laravel applicato all'IIOT"  fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='11.15-11.40' title='Short break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='11.00-11.30' title='Short break' icon="coffee" fill='true' %}
 
         <tr>
-          {% include schedule/talk.html time='11.40-12.10' title='Codemotion, Laravel & me: 3 anni in un\'azienda in rapida crescita' fill='true' %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html time='12.15-12.45' title='Playmoove: Shared mobility within everyone\'s reach (developers included)' fill='true' %}
-        </tr>
-
-        {% include schedule/pause.html time='12.45-14.00' title='Lunch' icon="food" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html time='14.00-14.30' title='Using Repository Pattern with Eloquent for Code That Lasts' fill='true' %}
+          {% include schedule/talk.html time='11.30-12.20' title='Cooperazione online in real time' fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='14.35-15.05' title='Laravel Doctrine: a Data Mapper approach' fill='true' %}
+          {% include schedule/talk.html time='12.25-13.00' title="The Kubernetes hitchhiker's guide to the CI/CD" fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='14.30-14.55' title='Docker for PHP Developers' fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='15.05-16.00' title='Automatizzare i test sulla UI con Dusk' fill='true'  %}
-        </tr>
-
-        {% include schedule/pause.html time='16.00-16.20' title='Short break' icon="coffee" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html time='16.20-16.50' title='Designing Virtual Reality App with Laravel Integration' fill='true'  %}
+          {% include schedule/talk.html time='15.00-15.25' title='Deploying Laravel from dev to production' fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html  time='16.55-17.25' title='12 Factors Laravel' fill='true'  %}
+          {% include schedule/talk.html time='15.30-15.55' title="Flexible Laravel: come rendere meno traumatica la gestione di un sistema legacy" fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='17.25-17.50' title='Happy hour' icon="bar" fill='true' %}
+        {% include schedule/pause.html time='15.55-16.25' title='Short break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='16.30-17.20' title='Sviluppare API con Laravel e Serverless su AWS' fill='true' %}
+        </tr>
+
+        {% include schedule/event.html time='17.25-17.35' title='Bye bye from GrUSP' fill='true' %}
+
+        {% include schedule/pause.html time='17.35-18.30' title='Happy hour' icon="bar" fill='true' %}
 
       </tbody>
     </table>
   </div>
 
-  <div class="schedule schedule--mobile" data-dates="12-1">
+  <div class="schedule schedule--mobile" data-dates="11-30">
     <table class="schedule__table">
       <thead>
         {% include schedule/header.html track='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='9.00-9.45' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
         {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
         {% include schedule/event.html time='9.55-10.05' title='Presentazione Laravel Italia' fill='true' %}
         <tr>
-          {% include schedule/talk.html time='10.10-10.40' title='RESTful API: la novità in Laravel 5.5'  fill='true' %}
+          {% include schedule/talk.html time='10.05-10.30' title='Modern PHP development with Laravel 5.6'  fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='10.45-11.15' title='Deploy di applicazioni Laravel con le pipeline di Bitbucket'  fill='true' %}
+          {% include schedule/talk.html time='10.35-11.00' title="Laravel applicato all'IIOT"  fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='11.15-11.40' title='Short break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='11.00-11.30' title='Short break' icon="coffee" fill='true' %}
 
         <tr>
-          {% include schedule/talk.html time='11.40-12.10' title='Codemotion, Laravel & me: 3 anni in un\'azienda in rapida crescita' fill='true' %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html time='12.15-12.45' title='Playmoove: Shared mobility within everyone\'s reach (developers included)' fill='true' %}
-        </tr>
-
-        {% include schedule/pause.html time='12.45-14.00' title='Lunch' icon="food" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html time='14.00-14.30' title='Using Repository Pattern with Eloquent for Code That Lasts' fill='true' %}
+          {% include schedule/talk.html time='11.30-12.20' title='Cooperazione online in real time' fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='14.35-15.05' title='Laravel Doctrine: a Data Mapper approach' fill='true' %}
+          {% include schedule/talk.html time='12.25-13.00' title="The Kubernetes hitchhiker's guide to the CI/CD" fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='14.30-14.55' title='Docker for PHP Developers' fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='15.05-16.00' title='Automatizzare i test sulla UI con Dusk' fill='true'  %}
-        </tr>
-
-        {% include schedule/pause.html time='16.00-16.20' title='Short break' icon="coffee" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html time='16.20-16.50' title='Designing Virtual Reality App with Laravel Integration' fill='true'  %}
+          {% include schedule/talk.html time='15.00-15.25' title='Deploying Laravel from dev to production' fill='true' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html  time='16.55-17.25' title='12 Factors Laravel' fill='true'  %}
+          {% include schedule/talk.html time='15.30-15.55' title="Flexible Laravel: come rendere meno traumatica la gestione di un sistema legacy" fill='true' %}
         </tr>
+
+        {% include schedule/pause.html time='15.55-16.25' title='Short break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='16.30-17.20' title='Sviluppare API con Laravel e Serverless su AWS' fill='true' %}
+        </tr>
+
+        {% include schedule/event.html time='17.25-17.35' title='Bye bye from GrUSP' fill='true' %}
 
         {% include schedule/pause.html time='17.25-17.50' title='Happy hour' icon="bar" fill='true' %}
 
