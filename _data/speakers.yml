@@ -42,6 +42,14 @@ list:
     twitter: casgin
 
   -
+    id: luca-fregoso
+    description:
+    image: luca-fregoso.jpg
+    first_name: Luca
+    last_name: Fregoso
+    twitter: s2kagency
+
+  -
     id: matteo-mangoni
     description:
     image: matteo-mangoni.jpg

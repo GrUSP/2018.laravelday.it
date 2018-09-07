@@ -71,6 +71,16 @@
 
 -
   speaker_id:
+    - luca-fregoso
+  title: Cooperazione online in real time
+  extract: >
+    Hai mai dovuto gestire contenuti online collaborando con un team? Ti è mai capitato di dover commentare un file
+    caricato su un'area condivisa? Scopriamo come una combinazione di Laravel, Laravel Echo e  Vue.js può essere la
+    soluzione a diversi problemi, consentendo di comunicare rapidamente in un'ambiente condiviso, mantenendo tutti gli
+    attori coinvolti aggiornati su ciò che sta succedendo.
+
+-
+  speaker_id:
     - matteo-mangoni
   title: "Flexible Laravel: come rendere meno traumatica la gestione di un sistema legacy"
   extract: >
