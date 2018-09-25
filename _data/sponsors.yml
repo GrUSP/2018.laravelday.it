@@ -50,6 +50,9 @@ gold:
     -
       url: https://www.workwave.com/?utm_source=laravelday
       image: workwave.svg
+    -
+      url: https://remote-developer.io/?utm_source=laravelday
+      image: remote-developer.svg
 
 silver:
   price: € 500
