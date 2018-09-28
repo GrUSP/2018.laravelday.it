@@ -78,3 +78,6 @@ bronze:
     -
       url: http://www.seneca.it/?utm_source=laravelday
       image: seneca.svg
+    -
+      url: https://www.laramind.com/corsi-in-aula
+      image: laramind.svg
