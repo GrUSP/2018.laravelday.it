@@ -7,8 +7,8 @@ year: 2018
 since: 2017
 call_for_paper_url: https://goo.gl/forms/NxtK1YIMsF8YbN7W2
 call_for_paper: false
-talks_available: false
-schedule_available: false
+talks_available: true
+schedule_available: true
 has_workshop: true
 
 iubenda:

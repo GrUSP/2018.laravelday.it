@@ -48,8 +48,12 @@ gold:
   max: 8
   list:
     -
-      url: https://www.workwave.com
+      url: https://www.workwave.com/?utm_source=laravelday
       image: workwave.svg
+    -
+      url: https://remote-developer.io/?utm_source=laravelday
+      image: remote-developer.svg
+
 silver:
   price: € 500
   offer:
@@ -68,3 +72,9 @@ bronze:
     - 1 biglietto gratuito
   max: 32
   list:
+    -
+      url: http://dbs.agency/?utm_source=laravelday
+      image: designbrothers.svg
+    -
+      url: http://www.seneca.it/?utm_source=laravelday
+      image: seneca.svg
