@@ -69,7 +69,6 @@ bronze:
   price: € 300
   offer:
     - Banner sul sito
-    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
     - 1 biglietto gratuito
   max: 32
   list:
@@ -79,3 +78,6 @@ bronze:
     -
       url: http://www.seneca.it/?utm_source=laravelday
       image: seneca.svg
+    -
+      url: https://www.laramind.com/corsi-in-aula
+      image: laramind.svg
