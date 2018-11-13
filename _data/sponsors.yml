@@ -64,6 +64,9 @@ silver:
     - 2 biglietti gratuiti
   max: 16
   list:
+    -
+      url: https://www.ewebite.it/?utm_source=laravelday&utm_medium=banner&utm_campaign=2018
+      image: ewebite.svg
 
 bronze:
   price: € 300
