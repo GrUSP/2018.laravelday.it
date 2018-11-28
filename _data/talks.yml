@@ -71,13 +71,16 @@
 
 -
   speaker_id:
-    - luca-fregoso
-  title: Cooperazione online in real time
+    - gianfranco-castro
+  title: Laravel e Vue JS
   extract: >
-    Hai mai dovuto gestire contenuti online collaborando con un team? Ti è mai capitato di dover commentare un file
-    caricato su un'area condivisa? Scopriamo come una combinazione di Laravel, Laravel Echo e  Vue.js può essere la
-    soluzione a diversi problemi, consentendo di comunicare rapidamente in un'ambiente condiviso, mantenendo tutti gli
-    attori coinvolti aggiornati su ciò che sta succedendo.
+    Vue.js è una framework per realizzare applicazioni web interattive; l'obiettivo di Vue.js è fornire i benefici del
+    reactive data binding e del composable view components attraverso un'API il più possibile semplice.
+    Purtroppo, data la grande flessibilità, ci si trova ad un bivio per capire cosa fare lato frontend, sia lato backend,
+    creando a volte applicazioni difficili sotto il profilo della manutenzione.
+    In questo talk vedremo come l'accoppiata Laravel e Vue JS ci torna utile per la creazione di Single Page Application
+    e Progressive Web Application, in modo rapido e affidabile, toccando gli aspetti progettuali, implementativi e di
+    deploy.
 
 -
   speaker_id:
